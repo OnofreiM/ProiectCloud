@@ -1,0 +1,497 @@
+/* CSS Document */
+
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+ 
+.body_website {
+	margin:0;
+	padding:0;
+	width:70%;
+	margin: 0 auto;
+	color:#fff;
+	background-color:#D3D0D0
+}
+.header{
+	text-align:center;
+	font-size: 100px;
+	color: gold;
+	margin-top: 30px;
+	margin-bottom : 10px;
+	width:90%;
+	height: auto;
+	margin-left: 4%;
+	background-color: #565252;
+	font-family: "Broadway";
+	font-style: oblique;
+}
+.header2{
+
+	width: 90%;
+	margin-left : 4%;
+	height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color:#565252;
+    height:51px;
+    width: 90%;
+    text-align: center;
+    margin:0 ;
+    margin-top: 5px;
+	margin-left: 4%;
+	margin-bottom:10px;
+	
+}
+.li-customize {
+    float: left;
+}
+.li-customize a {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+	font-size:18px;
+	font-family: sans-serif;
+	transition: .4s all ease-in-out;
+
+}
+.li-customize a:hover {
+text-decoration:none;
+background : #7f0b0b;
+color : white;
+transition: .4s all ease-in-out;	
+}
+
+.active{
+	background-color:#821717;
+}
+/*Design continut*/
+.continut{
+	width: 70%;
+	min-height: 600px;
+	background-color: #211f1f;
+	margin-left: 4%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	border-style: inset;
+	border-radius: 50px;
+	border-width: 5px;
+	float : left;
+}
+
+.picture{
+	width: 50%;
+	margin-left : 4%;
+	height: auto;
+	border-radius:20px;
+	
+}
+
+input[type=raspuns]{
+    width: 30%;
+	height:auto;
+    padding: 4px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+	display: block;
+	margin: 0 auto;
+}
+
+.coin{
+position: absolute; 
+top: 0px; 
+right: 40px; 
+max-width: 6vw;
+min-width: 60px;
+
+}
+
+.coins{
+position: absolute; 
+top: 30px; 
+right: 15px; 
+font-size:calc(12px + 0.5vw);
+color: gold;
+
+
+}
+.clasament{
+	width:90%;
+	margin-top:5%;
+	margin-left:5%;
+	margin-bottom:5%;
+	text-align:center;
+	color:white;
+	border-style: inset;
+	border-radius: 50px;
+	border-width: 3px;
+	font-size: 22px;
+	background-color:#565252;
+}
+
+
+input[type=raspuns2]{
+width:10vw;
+display:inline-block; 
+margin: 0 auto;
+ }
+ 
+
+.button-submit-answer{
+ /* whatevers */
+background: lightblue;
+border: 1px solid black;
+border-left: 0;
+border-radius: 0 10px 10px 0;
+cursor: pointer;
+
+}
+
+.user-input{
+position:relative;
+transform: translate(15vw,0px); 
+}
+
+.rightside{
+width:17%;
+float:right;
+background-color:#565252;
+min-height: 600px;
+margin-right: 6%;
+margin-top:5px;
+margin-bottom : 5px;
+border-radius: 10px;
+}
+.footer{
+	width: 90%;
+	height: 30px;
+	margin-left: 4%;
+	margin-right: 4%;
+	background-color:#565252;
+	font-family:Candara;
+	clear : both;
+	margin-top: 5px;
+	margin-bottom: 55px;
+}
+
+.paddingg {
+    padding-left: 10px;
+}
+.register{
+	width: 600px;
+	height:500px;
+	background-color: #b8b894;
+	margin-left: 350px;
+	margin-top: 5px;
+	text-align: center;
+	color: black;
+}
+.formular{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#ffff66;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+	
+#chatbox2  {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#ffff66;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+
+/* Style for login page*/
+
+.body_login {
+	
+	background-image: url("/photos/login-wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+	}
+.body_singup {
+	background-image: url("/photos/login-wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #fff;
+	border-radius : 20px;
+    box-sizing: border-box;
+	outline : none;	
+	background:transparent;
+}
+
+
+
+.button-blue {
+    background-color: #045f9f;
+    color: gold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius : 20px;
+
+}
+
+
+.button-blue:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+	
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.singup{
+	width:40%;
+	margin:0 auto;
+}
+#nume1{
+	color:white;
+	margin-left:8%;
+	width:40%;
+}
+#nume2{
+	color:white;
+	width:40%;
+	margin-left:4%;
+}
+#nume1, #nume2{
+    display:inline-block;
+	margin-top:10%;
+}
+@media only screen and (max-width: 600px) 
+{
+
+    
+    ul {
+        list-style-type: none;
+        height:25px;
+        width: 99%;
+        text-align: center;
+		margin-left:1px;
+    
+    }
+    .li-customize a {
+        display:block;
+        border-right: 1px solid #bbb;
+        color: white;
+        text-align: center;
+        padding: 7px 8px;
+        font-size:8px;
+        font-family: sans-serif;
+        transition: .4s all ease-in-out;
+    }
+    .continut{
+    width: 96%;
+    min-height: 250px;
+    background-color: #211f1f;
+    margin-top: 5px;
+    margin-bottom:15px;
+    border-style: inset;
+    border-radius: 50px;
+    border-width: 5px;
+    font-size: 15px;
+	margin-left:1px;
+    }
+    .rightside{
+    float:left;
+    min-height:110px;
+    background-color:#565252;
+    height: 60px;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom : 5px;
+    font-size: 10px;
+    }
+    .footer{
+    width: 100%;
+    height: 30px;
+    background-color:#565252;
+    font-family:Candara;
+    clear : both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	margin-left:1px;
+    }
+    .time{
+        font-size: 15px;
+    }
+    .profileinfo{
+        float: right;
+        margin-top: -77px;
+        margin-right: 40%;
+    }
+	.body_website {
+	margin:0;
+	padding:0;
+	width:100%;
+	margin: 0 auto;
+	color:#fff;
+	background-color:#D3D0D0
+	}
+	.singup{
+	margin:0;
+	width:140%;
+	margin-left:-20%;
+	}
+	.body_singup {
+	width:35%;
+	background-image: url("/photos/login-wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+	}
+	#nume1{
+	color:white;
+	margin-left:8%;
+	margin-top:10%;
+	width:100%;
+	}
+	#nume2{
+	color:white;
+	margin-left:8%;
+	margin-top:5%;
+	width:100%;
+	}
+}
+@media only screen and (min-width:601px) and (max-width:1000px){
+	
+    
+    ul {
+        list-style-type: none;
+        height:38px;
+        width: 99%;
+        text-align: center;
+		margin-left:1px;
+    
+    }
+    .li-customize a {
+        display:block;
+        border-right: 1px solid #bbb;
+        color: white;
+        text-align: center;
+        padding: 11px 12px;
+        font-size:13px;
+        font-family: sans-serif;
+        transition: .4s all ease-in-out;
+    }
+    .continut{
+    width: 70%;
+    min-height: 250px;
+    background-color: #211f1f;
+    margin-top: 5px;
+    margin-bottom:15px;
+    border-style: inset;
+    border-radius: 50px;
+    border-width: 5px;
+    font-size: 15px;
+	margin-left:1px;
+    }
+    .rightside{
+    width: 20%;
+	min-height:400px;
+    }
+    .footer{
+    width: 100%;
+    height: 30px;
+    background-color:#565252;
+    font-family:Candara;
+    clear : both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	margin-left:1px;
+    }
+    .time{
+        font-size: 15px;
+    }
+	.body_website {
+	margin:0;
+	padding:0;
+	width:100%;
+	margin: 0 auto;
+	color:#fff;
+	background-color:#D3D0D0
+}
+   
+}
